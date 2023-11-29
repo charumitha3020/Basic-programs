@@ -1,0 +1,34 @@
+num=int(input("Enter the number"))
+if num>1:
+    for i in range(2,num):
+        if num%i==0:
+            print(num,"Not a prime")
+            break
+    else:
+        print(num,"Prime number")
+else:
+    print(num,"Not a prime number")
+
+---------------------------------------------------------------
+
+Prime number range
+
+lower=int(input("Enter the number1"))
+upper=int(input("Enter the number2"))
+for num in range(lower,upper+1):
+    if num>1:
+        for i in range(2,num):
+            if num%i==0:
+                break
+        else:
+            print(num)
+    
+output:
+Enter the number11
+Enter the number215
+2
+3
+5
+7
+11
+13
