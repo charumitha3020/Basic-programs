@@ -1,0 +1,37 @@
+n=int(input("Enter the number:"))
+temp=n
+length=len(str(n))
+sum=0
+while(n>0):
+    rem=n%10
+    sum+=rem**length
+    n=n//10
+if sum==temp:
+    print(temp,"Armstrong number")
+else:
+    print(temp,"Not Armstrong number")
+
+--------------------------------------------------------------------------------------
+
+Armstrong Range
+
+lower=int(input("Enter the number1:"))
+upper=int(input("Enter the number2:"))
+for i in range(lower,upper+1):
+    temp=i
+    length=len(str(i))
+    sum=0
+    while(i>0):
+        rem=i%10
+        sum+=rem**length
+        i=i//10
+    if sum==temp:
+        print(temp)
+    
+
+
+    
+    
+
+    
+    
