@@ -27,6 +27,24 @@ for i in range(lower,upper+1):
         i=i//10
     if sum==temp:
         print(temp)
+
+output:
+Enter the number1:1
+Enter the number2:1001
+1
+2
+3
+4
+5
+6
+7
+8
+9
+153
+370
+371
+407
+
     
 
 
